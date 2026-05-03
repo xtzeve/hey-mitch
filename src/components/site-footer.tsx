@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-
 export function SiteFooter() {
     return (
         <footer className="border-t border-[color:var(--border)] mt-20 md:mt-32">
