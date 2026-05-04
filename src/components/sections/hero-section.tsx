@@ -36,12 +36,9 @@ export function HeroSection() {
                     className={`mt-10 grid gap-10 md:grid-cols-[1.4fr_1fr] items-end ${r3.className}`}
                 >
                     <p className="text-lg md:text-xl leading-relaxed text-[color:var(--offblack)]/85 max-w-2xl">
-                        Top-of-funnel outreach is where most sales processes break down — not because the
-                        product is wrong, but because the groundwork was never laid.{" "}
+                        Top-of-funnel outreach is where most sales processes break down — not because the product is wrong, but because the groundwork was never laid.{" "}
                         <span className="text-[color:var(--offblack)]">
-              MITCH is a precision outbound service that creates Awareness and Comprehension at
-              scale, so that by the time your team engages, Conviction and Action are already
-              within reach.
+              MITCH is precision AI outbound service that creates Awareness and Comprehension at scale, so that by the time your team engages, Conviction and Action are already within reach.
             </span>
                     </p>
 
