@@ -11,13 +11,13 @@ export function SiteFooter() {
                     </p>
                 </div>
                 <div className="text-sm space-y-2">
-                    <p className="eyebrow mb-3">Company</p>
-                    <p className="text-[color:var(--muted-foreground)]">Pearson Consulting</p>
+                    <p className="eyebrow mb-3">Contacts</p>
+                    {/*<p className="text-[color:var(--muted-foreground)]">Pearson Consulting</p>*/}
                     <a
-                        href="mailto:vp@pearson-consulting.de"
+                        href="mailto:info@hey-mitch.com"
                         className="block text-[color:var(--muted-foreground)] hover:text-[color:var(--burnt)] transition-colors"
                     >
-                        vp@pearson-consulting.de
+                        info@hey-mitch.com
                     </a>
                 </div>
                 <div className="text-sm space-y-2">
