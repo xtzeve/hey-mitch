@@ -1,6 +1,7 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import logoUrl from "../assets/Logo.svg?url";
 
 function NotFoundComponent() {
     return (
@@ -46,6 +47,11 @@ export const Route = createRootRoute({
             {
                 rel: "stylesheet",
                 href: appCss,
+            },
+            {
+                rel: "icon",
+                href: logoUrl,
+                type: "image/svg+xml",
             },
         ],
     }),
